@@ -40786,3 +40786,312 @@ INFO 2025-12-14 19:41:13,658 autoreload 1284 16484 Watching for file changes wit
 INFO 2025-12-14 19:41:15,052 server 1284 16432 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 INFO 2025-12-14 19:41:15,052 server 1284 16432 Configuring endpoint tcp:port=8000:interface=127.0.0.1
 INFO 2025-12-14 19:41:15,053 server 1284 16432 Listening on TCP address 127.0.0.1:8000
+INFO 2025-12-14 20:38:00,681 runserver 1284 16432 [mHTTP OPTIONS /api/register/ 200 [0.01, 127.0.0.1:51680][0m
+INFO 2025-12-14 20:38:00,754 views 1284 18792 Request: POST /api/register/
+INFO 2025-12-14 20:38:01,080 runserver 1284 16432 [mHTTP POST /api/register/ 201 [0.40, 127.0.0.1:51680][0m
+INFO 2025-12-14 20:38:01,091 runserver 1284 16432 [mHTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:51680][0m
+INFO 2025-12-14 20:38:01,092 runserver 1284 16432 [mHTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:61501][0m
+INFO 2025-12-14 20:38:01,093 runserver 1284 16432 [mHTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:64258][0m
+INFO 2025-12-14 20:38:01,093 runserver 1284 16432 [mHTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:60352][0m
+INFO 2025-12-14 20:38:01,099 views 1284 2024 Request: GET /api/current-weather-live/
+INFO 2025-12-14 20:38:01,102 views 1284 6548 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-14 20:38:01,104 runserver 1284 16432 [mHTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:61501][0m
+INFO 2025-12-14 20:38:01,108 views 1284 5968 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-14 20:38:01,110 runserver 1284 16432 [mHTTP GET /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:61501][0m
+INFO 2025-12-14 20:38:01,113 runserver 1284 16432 [mHTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:61501][0m
+INFO 2025-12-14 20:38:01,114 runserver 1284 16432 [mHTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:60352][0m
+INFO 2025-12-14 20:38:01,122 views 1284 5616 Request: GET /api/notifications/
+INFO 2025-12-14 20:38:01,124 runserver 1284 16432 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:60352][0m
+INFO 2025-12-14 20:38:01,128 views 1284 452 Request: GET /api/notifications/
+INFO 2025-12-14 20:38:01,130 runserver 1284 16432 [mHTTP GET /api/notifications/ 200 [0.00, 127.0.0.1:60352][0m
+INFO 2025-12-14 20:38:01,507 runserver 1284 16432 [mHTTP GET /api/current-weather-live/ 200 [0.41, 127.0.0.1:51680][0m
+INFO 2025-12-14 20:38:01,510 views 1284 18508 Request: GET /api/current-weather-live/
+INFO 2025-12-14 20:38:01,623 runserver 1284 16432 [mHTTP GET /api/current-weather-live/ 200 [0.12, 127.0.0.1:51680][0m
+INFO 2025-12-14 20:38:31,129 views 1284 12172 Request: GET /api/notifications/
+INFO 2025-12-14 20:38:31,131 runserver 1284 16432 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:51680][0m
+INFO 2025-12-16 15:01:23,524 autoreload 13204 7580 Watching for file changes with StatReloader
+INFO 2025-12-16 15:01:24,823 server 13204 19592 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-12-16 15:01:24,824 server 13204 19592 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-12-16 15:01:24,824 server 13204 19592 Listening on TCP address 127.0.0.1:8000
+INFO 2025-12-16 15:02:29,429 runserver 13204 19592 HTTP OPTIONS /api/register/ 200 [0.01, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:29,491 views 13204 22228 Request: POST /api/register/
+INFO 2025-12-16 15:02:29,819 runserver 13204 19592 HTTP POST /api/register/ 201 [0.39, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:29,830 runserver 13204 19592 HTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:29,831 runserver 13204 19592 HTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:50202]
+INFO 2025-12-16 15:02:29,831 runserver 13204 19592 HTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:56823]
+INFO 2025-12-16 15:02:29,832 runserver 13204 19592 HTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:50142]
+INFO 2025-12-16 15:02:29,837 views 13204 12916 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:02:29,842 views 13204 21476 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-16 15:02:29,845 runserver 13204 19592 HTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:56823]
+INFO 2025-12-16 15:02:29,850 views 13204 11744 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-16 15:02:29,852 runserver 13204 19592 HTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:50142]
+INFO 2025-12-16 15:02:29,852 runserver 13204 19592 HTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:29,854 runserver 13204 19592 HTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:56823]
+INFO 2025-12-16 15:02:29,857 views 13204 6628 Request: GET /api/notifications/
+INFO 2025-12-16 15:02:29,860 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:29,864 views 13204 7408 Request: GET /api/notifications/
+INFO 2025-12-16 15:02:29,866 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:51886]
+INFO 2025-12-16 15:02:30,233 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.40, 127.0.0.1:50202]
+INFO 2025-12-16 15:02:30,236 views 13204 14424 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:02:30,347 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.11, 127.0.0.1:50202]
+INFO 2025-12-16 15:03:04,941 runserver 13204 19592 HTTP OPTIONS /api/auth/send-otp/ 200 [0.00, 127.0.0.1:50202]
+INFO 2025-12-16 15:03:04,943 views 13204 19016 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:03:04,944 views 13204 19016 Request Data: {'identifier': '78646934', 'purpose': 'registration', 'role': 'buyer'}
+INFO 2025-12-16 15:03:04,949 views 13204 19016 SMS OTP for 78646934: 691532
+INFO 2025-12-16 15:03:04,951 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [0.01, 127.0.0.1:50202]
+INFO 2025-12-16 15:03:52,343 views 13204 20320 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:03:52,344 views 13204 20320 Request Data: {'identifier': ' 34243545', 'purpose': 'registration', 'role': 'buyer'}
+INFO 2025-12-16 15:03:52,371 views 13204 20320 SMS OTP for 34243545: 915398
+INFO 2025-12-16 15:03:52,374 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [0.03, 127.0.0.1:50202]
+INFO 2025-12-16 15:04:15,710 runserver 13204 19592 HTTP OPTIONS /api/auth/verify-otp/ 200 [0.00, 127.0.0.1:50202]
+INFO 2025-12-16 15:04:15,712 views 13204 14796 Request: POST /api/auth/verify-otp/
+INFO 2025-12-16 15:04:15,740 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 200 [0.03, 127.0.0.1:50202]
+INFO 2025-12-16 15:04:20,438 views 13204 15868 Request: POST /api/register/
+INFO 2025-12-16 15:04:20,747 runserver 13204 19592 HTTP POST /api/register/ 201 [0.31, 127.0.0.1:50202]
+INFO 2025-12-16 15:04:20,754 views 13204 8376 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:04:20,764 views 13204 10848 Request: GET /api/notifications/
+INFO 2025-12-16 15:04:20,767 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:55855]
+INFO 2025-12-16 15:04:20,775 views 13204 12076 Request: GET /api/notifications/
+INFO 2025-12-16 15:04:20,780 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:55855]
+INFO 2025-12-16 15:04:20,944 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.19, 127.0.0.1:50202]
+INFO 2025-12-16 15:04:20,947 views 13204 14124 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:04:21,420 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.47, 127.0.0.1:50202]
+INFO 2025-12-16 15:05:05,103 views 13204 10348 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:05:05,104 views 13204 10348 Request Data: {'identifier': 'yousufabdllahn@gmail.com', 'purpose': 'registration', 'role': 'expert'}
+INFO 2025-12-16 15:05:08,574 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [3.47, 127.0.0.1:50202]
+INFO 2025-12-16 15:05:48,791 views 13204 17560 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:05:48,791 views 13204 17560 Request Data: {'identifier': 'shakinabegumn@gmail.com', 'purpose': 'registration', 'role': 'expert'}
+INFO 2025-12-16 15:05:51,958 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [3.17, 127.0.0.1:50202]
+INFO 2025-12-16 15:06:25,159 views 13204 18284 Request: POST /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:25,171 log 13204 12920 Bad Request: /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:25,172 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 400 [0.01, 127.0.0.1:50202]
+INFO 2025-12-16 15:06:26,863 views 13204 5576 Request: POST /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:26,866 log 13204 12920 Bad Request: /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:26,866 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 400 [0.00, 127.0.0.1:50202]
+INFO 2025-12-16 15:06:27,920 views 13204 8888 Request: POST /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:27,922 log 13204 12920 Bad Request: /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:27,923 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 400 [0.01, 127.0.0.1:50202]
+INFO 2025-12-16 15:06:28,807 views 13204 10744 Request: POST /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:28,810 log 13204 12920 Bad Request: /api/auth/verify-otp/
+WARNING 2025-12-16 15:06:28,811 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 400 [0.01, 127.0.0.1:50202]
+INFO 2025-12-16 15:06:52,144 views 13204 10268 Request: POST /api/auth/verify-otp/
+INFO 2025-12-16 15:06:52,170 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 200 [0.03, 127.0.0.1:50202]
+INFO 2025-12-16 15:07:32,488 views 13204 4968 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:07:32,488 views 13204 4968 Request Data: {'identifier': 'shakinabegumn@gmail.com', 'purpose': 'registration', 'role': 'expert'}
+INFO 2025-12-16 15:07:36,711 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [4.23, 127.0.0.1:50202]
+INFO 2025-12-16 15:07:52,480 views 13204 13284 Request: POST /api/auth/verify-otp/
+WARNING 2025-12-16 15:07:52,483 log 13204 12920 Bad Request: /api/auth/verify-otp/
+WARNING 2025-12-16 15:07:52,483 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 400 [0.01, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:10,280 views 13204 18836 Request: POST /api/auth/verify-otp/
+INFO 2025-12-16 15:08:10,308 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 200 [0.03, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:13,920 views 13204 9656 Request: POST /api/register/
+INFO 2025-12-16 15:08:14,223 runserver 13204 19592 HTTP POST /api/register/ 201 [0.31, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:14,231 views 13204 3204 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:08:14,233 views 13204 19932 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-16 15:08:14,237 views 13204 12036 Request: GET /api/notifications/
+INFO 2025-12-16 15:08:14,240 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:65247]
+INFO 2025-12-16 15:08:14,241 runserver 13204 19592 HTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:14,247 views 13204 4728 Request: GET /api/notifications/
+INFO 2025-12-16 15:08:14,249 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:65247]
+INFO 2025-12-16 15:08:14,254 views 13204 14332 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-16 15:08:14,256 runserver 13204 19592 HTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:14,577 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.35, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:14,580 views 13204 16280 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:08:14,688 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.11, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:26,211 runserver 13204 19592 HTTP OPTIONS /api/expert/problems/ 200 [0.00, 127.0.0.1:50202]
+INFO 2025-12-16 15:08:26,211 runserver 13204 19592 HTTP OPTIONS /api/expert/problems/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:26,215 views 13204 12800 Request: GET /api/expert/problems/
+INFO 2025-12-16 15:08:26,217 runserver 13204 19592 HTTP GET /api/expert/problems/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:26,220 views 13204 8116 Request: GET /api/expert/problems/
+INFO 2025-12-16 15:08:26,222 runserver 13204 19592 HTTP GET /api/expert/problems/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:27,760 runserver 13204 19592 HTTP OPTIONS /api/expert/knowledge-base/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:27,764 views 13204 23244 Request: GET /api/expert/knowledge-base/
+INFO 2025-12-16 15:08:27,775 runserver 13204 19592 HTTP GET /api/expert/knowledge-base/ 200 [0.01, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:28,584 runserver 13204 19592 HTTP OPTIONS /api/expert/reviews/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:28,588 views 13204 10104 Request: GET /api/expert/reviews/
+INFO 2025-12-16 15:08:28,590 runserver 13204 19592 HTTP GET /api/expert/reviews/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:08:30,579 views 13204 1264 Request: GET /api/expert/knowledge-base/
+INFO 2025-12-16 15:08:30,580 runserver 13204 19592 HTTP GET /api/expert/knowledge-base/ 200 [0.01, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:02,849 views 13204 1968 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:09:02,849 views 13204 1968 Request Data: {'identifier': '01810518470', 'purpose': 'registration', 'role': 'admin'}
+WARNING 2025-12-16 15:09:02,851 log 13204 12920 Bad Request: /api/auth/send-otp/
+WARNING 2025-12-16 15:09:02,851 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 400 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:15,369 views 13204 23020 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:09:15,369 views 13204 23020 Request Data: {'identifier': '01810518470', 'purpose': 'registration', 'role': 'admin'}
+WARNING 2025-12-16 15:09:15,373 log 13204 12920 Bad Request: /api/auth/send-otp/
+WARNING 2025-12-16 15:09:15,373 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 400 [0.01, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:26,137 views 13204 16984 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:09:26,137 views 13204 16984 Request Data: {'identifier': '01581427821', 'purpose': 'registration', 'role': 'admin'}
+WARNING 2025-12-16 15:09:26,139 log 13204 12920 Bad Request: /api/auth/send-otp/
+WARNING 2025-12-16 15:09:26,140 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 400 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:30,729 views 13204 22832 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:09:30,729 views 13204 22832 Request Data: {'identifier': '01581427821', 'purpose': 'registration', 'role': 'admin'}
+WARNING 2025-12-16 15:09:30,731 log 13204 12920 Bad Request: /api/auth/send-otp/
+WARNING 2025-12-16 15:09:30,731 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 400 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:42,009 views 13204 10760 Request: POST /api/auth/send-otp/
+INFO 2025-12-16 15:09:42,009 views 13204 10760 Request Data: {'identifier': '98643985', 'purpose': 'registration', 'role': 'admin'}
+INFO 2025-12-16 15:09:42,023 views 13204 10760 SMS OTP for 98643985: 439108
+INFO 2025-12-16 15:09:42,025 runserver 13204 19592 HTTP POST /api/auth/send-otp/ 200 [0.02, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:54,033 views 13204 19068 Request: POST /api/auth/verify-otp/
+INFO 2025-12-16 15:09:54,061 runserver 13204 19592 HTTP POST /api/auth/verify-otp/ 200 [0.03, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:57,753 views 13204 15256 Request: POST /api/register/
+INFO 2025-12-16 15:09:58,060 runserver 13204 19592 HTTP POST /api/register/ 201 [0.31, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:58,067 views 13204 15544 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:09:58,071 views 13204 8560 Request: GET /api/notifications/
+INFO 2025-12-16 15:09:58,074 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:55989]
+INFO 2025-12-16 15:09:58,079 views 13204 11112 Request: GET /api/notifications/
+INFO 2025-12-16 15:09:58,081 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:55989]
+INFO 2025-12-16 15:09:58,253 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.19, 127.0.0.1:53791]
+INFO 2025-12-16 15:09:58,255 views 13204 2648 Request: GET /api/current-weather-live/
+INFO 2025-12-16 15:09:58,365 runserver 13204 19592 HTTP GET /api/current-weather-live/ 200 [0.11, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:03,948 runserver 13204 19592 HTTP OPTIONS /api/admin/users/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:03,949 runserver 13204 19592 HTTP OPTIONS /api/admin/users/ 200 [0.00, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:03,955 runserver 13204 19592 HTTP GET /api/admin/users/ 200 [0.01, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:03,960 runserver 13204 19592 HTTP GET /api/admin/users/ 200 [0.00, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:28,080 views 13204 11388 Request: GET /api/notifications/
+INFO 2025-12-16 15:10:28,082 runserver 13204 19592 HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:41,001 runserver 13204 19592 HTTP OPTIONS /api/market/?_t=1765876240995 200 [0.00, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:41,002 runserver 13204 19592 HTTP OPTIONS /api/market/dashboard-stats/ 200 [0.00, 127.0.0.1:50200]
+INFO 2025-12-16 15:10:41,002 runserver 13204 19592 HTTP OPTIONS /api/market/market-prices/ 200 [0.00, 127.0.0.1:63884]
+INFO 2025-12-16 15:10:41,002 runserver 13204 19592 HTTP OPTIONS /api/buyer/orders/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:41,004 runserver 13204 19592 HTTP OPTIONS /api/crops/ 200 [0.01, 127.0.0.1:54293]
+INFO 2025-12-16 15:10:41,004 runserver 13204 19592 HTTP OPTIONS /api/market/?_t=1765876240996 200 [0.00, 127.0.0.1:60348]
+INFO 2025-12-16 15:10:41,008 runserver 13204 19592 HTTP OPTIONS /api/buyer/orders/ 200 [0.01, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:41,008 runserver 13204 19592 HTTP OPTIONS /api/market/dashboard-stats/ 200 [0.00, 127.0.0.1:50200]
+INFO 2025-12-16 15:10:41,009 runserver 13204 19592 HTTP OPTIONS /api/market/market-prices/ 200 [0.00, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:41,009 runserver 13204 19592 HTTP OPTIONS /api/crops/ 200 [0.00, 127.0.0.1:63884]
+INFO 2025-12-16 15:10:41,017 views 13204 22864 Request: GET /api/market/
+INFO 2025-12-16 15:10:41,018 views 13204 9408 Request: GET /api/crops/
+INFO 2025-12-16 15:10:41,024 views 13204 5524 Request: GET /api/market/market-prices/
+INFO 2025-12-16 15:10:41,025 views 13204 18008 Request: GET /api/buyer/orders/
+INFO 2025-12-16 15:10:41,026 views 13204 15340 Request: GET /api/market/
+INFO 2025-12-16 15:10:41,029 runserver 13204 19592 HTTP GET /api/market/dashboard-stats/ 200 [0.02, 127.0.0.1:60348]
+INFO 2025-12-16 15:10:41,032 runserver 13204 19592 HTTP GET /api/market/?_t=1765876240995 200 [0.03, 127.0.0.1:54293]
+INFO 2025-12-16 15:10:41,033 runserver 13204 19592 HTTP GET /api/buyer/orders/ 200 [0.02, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:41,035 runserver 13204 19592 HTTP GET /api/crops/ 200 [0.02, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:41,036 runserver 13204 19592 HTTP GET /api/market/?_t=1765876240996 200 [0.03, 127.0.0.1:63884]
+INFO 2025-12-16 15:10:41,043 views 13204 14368 Request: GET /api/buyer/orders/
+INFO 2025-12-16 15:10:41,065 views 13204 22980 Request: GET /api/crops/
+INFO 2025-12-16 15:10:41,068 runserver 13204 19592 HTTP GET /api/market/dashboard-stats/ 200 [0.04, 127.0.0.1:60348]
+INFO 2025-12-16 15:10:41,068 runserver 13204 19592 HTTP GET /api/buyer/orders/ 200 [0.03, 127.0.0.1:55989]
+INFO 2025-12-16 15:10:41,069 runserver 13204 19592 HTTP GET /api/market/market-prices/ 200 [0.06, 127.0.0.1:50200]
+INFO 2025-12-16 15:10:41,072 runserver 13204 19592 HTTP GET /api/crops/ 200 [0.04, 127.0.0.1:53791]
+INFO 2025-12-16 15:10:41,075 views 13204 19516 Request: GET /api/market/market-prices/
+INFO 2025-12-16 15:10:41,089 runserver 13204 19592 HTTP GET /api/market/market-prices/ 200 [0.02, 127.0.0.1:55989]
+INFO 2025-12-21 20:47:38,505 autoreload 7132 6636 Watching for file changes with StatReloader
+INFO 2025-12-21 20:47:40,004 server 7132 17880 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-12-21 20:47:40,004 server 7132 17880 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-12-21 20:47:40,005 server 7132 17880 Listening on TCP address 127.0.0.1:8000
+INFO 2025-12-21 20:54:40,237 runserver 7132 17880 [mHTTP OPTIONS /api/login/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:54:40,245 views 7132 15944 Request: POST /api/login/
+WARNING 2025-12-21 20:54:40,253 log 7132 19360 Unauthorized: /api/login/
+WARNING 2025-12-21 20:54:40,253 runserver 7132 17880 [31;1mHTTP POST /api/login/ 401 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:22,058 runserver 7132 17880 [mHTTP OPTIONS /api/register/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:22,060 views 7132 8012 Request: POST /api/register/
+INFO 2025-12-21 20:55:22,378 runserver 7132 17880 [mHTTP POST /api/register/ 201 [0.32, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:22,387 runserver 7132 17880 [mHTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:22,388 runserver 7132 17880 [mHTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:53988][0m
+INFO 2025-12-21 20:55:22,388 runserver 7132 17880 [mHTTP OPTIONS /api/farmer-dashboard-data/ 200 [0.00, 127.0.0.1:55382][0m
+INFO 2025-12-21 20:55:22,388 runserver 7132 17880 [mHTTP OPTIONS /api/current-weather-live/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:55:22,393 views 7132 10888 Request: GET /api/current-weather-live/
+INFO 2025-12-21 20:55:22,398 views 7132 18708 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-21 20:55:22,400 runserver 7132 17880 [mHTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:55382][0m
+INFO 2025-12-21 20:55:22,404 views 7132 11816 Request: GET /api/farmer-dashboard-data/
+INFO 2025-12-21 20:55:22,406 runserver 7132 17880 [mHTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:55:22,408 runserver 7132 17880 [mHTTP OPTIONS /api/notifications/ 200 [0.00, 127.0.0.1:53988][0m
+INFO 2025-12-21 20:55:22,410 runserver 7132 17880 [mHTTP GET /api/farmer-dashboard-data/ 200 [0.01, 127.0.0.1:55382][0m
+INFO 2025-12-21 20:55:22,416 views 7132 19032 Request: GET /api/notifications/
+INFO 2025-12-21 20:55:22,419 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:55:22,424 views 7132 19324 Request: GET /api/notifications/
+INFO 2025-12-21 20:55:22,426 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:55:22,807 runserver 7132 17880 [mHTTP GET /api/current-weather-live/ 200 [0.42, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:22,812 views 7132 17840 Request: GET /api/current-weather-live/
+INFO 2025-12-21 20:55:22,926 runserver 7132 17880 [mHTTP GET /api/current-weather-live/ 200 [0.12, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:55:52,422 views 7132 5980 Request: GET /api/notifications/
+INFO 2025-12-21 20:55:52,424 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:21,806 runserver 7132 17880 [mHTTP OPTIONS /api/farmer-timeline/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:21,806 runserver 7132 17880 [mHTTP OPTIONS /api/farmer-timeline/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:21,821 views 7132 10328 Request: GET /api/farmer-timeline/
+INFO 2025-12-21 20:56:21,823 runserver 7132 17880 [mHTTP GET /api/farmer-timeline/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:21,826 runserver 7132 17880 [mHTTP OPTIONS /api/expense-calculations/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:21,831 views 7132 16420 Request: GET /api/farmer-timeline/
+INFO 2025-12-21 20:56:21,834 views 7132 2724 Request: GET /api/expense-calculations/
+INFO 2025-12-21 20:56:21,835 runserver 7132 17880 [mHTTP GET /api/farmer-timeline/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:21,839 runserver 7132 17880 [mHTTP GET /api/expense-calculations/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:21,842 views 7132 1600 Request: GET /api/expense-calculations/
+INFO 2025-12-21 20:56:21,844 runserver 7132 17880 [mHTTP GET /api/expense-calculations/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:22,410 views 7132 3260 Request: GET /api/notifications/
+INFO 2025-12-21 20:56:22,412 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:34,190 runserver 7132 17880 [mHTTP OPTIONS /api/crops/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:56:34,191 runserver 7132 17880 [mHTTP OPTIONS /api/crops/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:34,194 views 7132 6156 Request: GET /api/crops/
+INFO 2025-12-21 20:56:34,196 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:34,199 views 7132 18280 Request: GET /api/crops/
+INFO 2025-12-21 20:56:34,202 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,002 runserver 7132 17880 [mHTTP OPTIONS /api/create-timeline/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,006 views 7132 6588 Request: POST /api/create-timeline/
+INFO 2025-12-21 20:56:50,150 runserver 7132 17880 [mHTTP POST /api/create-timeline/ 200 [0.15, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,153 runserver 7132 17880 [mHTTP OPTIONS /api/pert-analysis/1/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,157 views 7132 18936 Request: GET /api/pert-analysis/1/
+INFO 2025-12-21 20:56:50,162 runserver 7132 17880 [mHTTP GET /api/pert-analysis/1/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,176 runserver 7132 17880 [mHTTP OPTIONS /api/weather/1/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:50,182 views 7132 6964 Request: GET /api/weather/1/
+INFO 2025-12-21 20:56:50,557 runserver 7132 17880 [mHTTP GET /api/weather/1/ 200 [0.38, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:56:52,413 views 7132 14084 Request: GET /api/notifications/
+INFO 2025-12-21 20:56:52,415 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:18,994 views 7132 19424 Request: GET /api/crops/
+INFO 2025-12-21 20:57:18,995 views 7132 15228 Request: GET /api/expense-calculations/
+INFO 2025-12-21 20:57:18,998 runserver 7132 17880 [mHTTP GET /api/expense-calculations/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:18,999 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:19,003 views 7132 11768 Request: GET /api/crops/
+INFO 2025-12-21 20:57:19,004 views 7132 18124 Request: GET /api/expense-calculations/
+INFO 2025-12-21 20:57:19,007 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:19,008 runserver 7132 17880 [mHTTP GET /api/expense-calculations/ 200 [0.01, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:22,422 views 7132 6704 Request: GET /api/notifications/
+INFO 2025-12-21 20:57:22,424 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:42,233 runserver 7132 17880 [mHTTP OPTIONS /api/market/?_t=1766329062228 200 [0.00, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:42,235 runserver 7132 17880 [mHTTP OPTIONS /api/buyer/orders/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:42,235 runserver 7132 17880 [mHTTP OPTIONS /api/farmer/orders/ 200 [0.00, 127.0.0.1:53546][0m
+INFO 2025-12-21 20:57:42,235 runserver 7132 17880 [mHTTP OPTIONS /api/market/dashboard-stats/ 200 [0.00, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:57:42,236 runserver 7132 17880 [mHTTP OPTIONS /api/market/market-prices/ 200 [0.00, 127.0.0.1:57603][0m
+INFO 2025-12-21 20:57:42,236 runserver 7132 17880 [mHTTP OPTIONS /api/market/?_t=1766329062229 200 [0.00, 127.0.0.1:58090][0m
+INFO 2025-12-21 20:57:42,241 runserver 7132 17880 [mHTTP OPTIONS /api/buyer/orders/ 200 [0.00, 127.0.0.1:53546][0m
+INFO 2025-12-21 20:57:42,241 runserver 7132 17880 [mHTTP OPTIONS /api/market/market-prices/ 200 [0.00, 127.0.0.1:57603][0m
+INFO 2025-12-21 20:57:42,241 runserver 7132 17880 [mHTTP OPTIONS /api/market/dashboard-stats/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:42,241 runserver 7132 17880 [mHTTP OPTIONS /api/farmer/orders/ 200 [0.00, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:57:42,245 views 7132 10888 Request: GET /api/crops/
+INFO 2025-12-21 20:57:42,253 views 7132 19152 Request: GET /api/market/
+INFO 2025-12-21 20:57:42,256 views 7132 8340 Request: GET /api/buyer/orders/
+INFO 2025-12-21 20:57:42,258 views 7132 19336 Request: GET /api/farmer/orders/
+INFO 2025-12-21 20:57:42,258 views 7132 19332 Request: GET /api/market/market-prices/
+INFO 2025-12-21 20:57:42,261 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.03, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:42,265 runserver 7132 17880 [mHTTP GET /api/buyer/orders/ 200 [0.02, 127.0.0.1:57603][0m
+INFO 2025-12-21 20:57:42,266 runserver 7132 17880 [mHTTP GET /api/market/?_t=1766329062228 200 [0.03, 127.0.0.1:58090][0m
+INFO 2025-12-21 20:57:42,266 runserver 7132 17880 [mHTTP GET /api/farmer/orders/ 200 [0.02, 127.0.0.1:53546][0m
+INFO 2025-12-21 20:57:42,270 runserver 7132 17880 [mHTTP GET /api/market/dashboard-stats/ 200 [0.03, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:42,287 views 7132 9900 Request: GET /api/market/
+INFO 2025-12-21 20:57:42,287 views 7132 2760 Request: GET /api/crops/
+INFO 2025-12-21 20:57:42,291 runserver 7132 17880 [mHTTP GET /api/market/market-prices/ 200 [0.05, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:57:42,296 views 7132 17264 Request: GET /api/buyer/orders/
+INFO 2025-12-21 20:57:42,296 views 7132 17180 Request: GET /api/farmer/orders/
+INFO 2025-12-21 20:57:42,303 runserver 7132 17880 [mHTTP GET /api/market/?_t=1766329062229 200 [0.04, 127.0.0.1:50128][0m
+INFO 2025-12-21 20:57:42,307 runserver 7132 17880 [mHTTP GET /api/buyer/orders/ 200 [0.04, 127.0.0.1:58090][0m
+INFO 2025-12-21 20:57:42,308 runserver 7132 17880 [mHTTP GET /api/crops/ 200 [0.04, 127.0.0.1:57603][0m
+INFO 2025-12-21 20:57:42,308 views 7132 18584 Request: GET /api/market/market-prices/
+INFO 2025-12-21 20:57:42,308 runserver 7132 17880 [mHTTP GET /api/farmer/orders/ 200 [0.04, 127.0.0.1:53546][0m
+INFO 2025-12-21 20:57:42,311 runserver 7132 17880 [mHTTP GET /api/market/dashboard-stats/ 200 [0.04, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:57:42,325 runserver 7132 17880 [mHTTP GET /api/market/market-prices/ 200 [0.03, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:57:52,411 views 7132 8464 Request: GET /api/notifications/
+INFO 2025-12-21 20:57:52,413 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:58:12,348 runserver 7132 17880 [mHTTP OPTIONS /api/problems/ 200 [0.00, 127.0.0.1:52210][0m
+INFO 2025-12-21 20:58:12,349 runserver 7132 17880 [mHTTP OPTIONS /api/problems/ 200 [0.00, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:58:12,353 views 7132 17552 Request: GET /api/problems/
+INFO 2025-12-21 20:58:12,371 runserver 7132 17880 [mHTTP GET /api/problems/ 200 [0.02, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:58:12,375 views 7132 6160 Request: GET /api/problems/
+INFO 2025-12-21 20:58:12,380 runserver 7132 17880 [mHTTP GET /api/problems/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2025-12-21 20:58:22,413 views 7132 11416 Request: GET /api/notifications/
+INFO 2025-12-21 20:58:22,415 runserver 7132 17880 [mHTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:61560][0m
+INFO 2026-01-01 13:47:26,663 autoreload 10936 19204 Watching for file changes with StatReloader
+INFO 2026-01-01 13:47:28,135 server 10936 19188 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2026-01-01 13:47:28,135 server 10936 19188 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2026-01-01 13:47:28,136 server 10936 19188 Listening on TCP address 127.0.0.1:8000
