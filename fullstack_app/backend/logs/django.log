@@ -41095,3 +41095,45 @@ INFO 2026-01-01 13:47:26,663 autoreload 10936 19204 Watching for file changes wi
 INFO 2026-01-01 13:47:28,135 server 10936 19188 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
 INFO 2026-01-01 13:47:28,135 server 10936 19188 Configuring endpoint tcp:port=8000:interface=127.0.0.1
 INFO 2026-01-01 13:47:28,136 server 10936 19188 Listening on TCP address 127.0.0.1:8000
+INFO 2026-03-05 20:59:58,009 autoreload 15916 2236 Watching for file changes with StatReloader
+INFO 2026-03-05 20:59:58,436 server 15916 14480 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2026-03-05 20:59:58,436 server 15916 14480 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2026-03-05 20:59:58,437 server 15916 14480 Listening on TCP address 127.0.0.1:8000
+INFO 2026-03-05 21:08:37,976 autoreload 16632 17148 Watching for file changes with StatReloader
+INFO 2026-03-05 21:08:38,415 server 16632 12336 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2026-03-05 21:08:38,415 server 16632 12336 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2026-03-05 21:08:38,415 server 16632 12336 Listening on TCP address 127.0.0.1:8000
+INFO 2026-03-05 21:11:25,974 runserver 16632 12336 [32mHTTP GET /admin 301 [0.01, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:25,986 runserver 16632 12336 [32mHTTP GET /admin/ 302 [0.01, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:26,006 runserver 16632 12336 [mHTTP GET /admin/login/?next=/admin/ 200 [0.02, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:26,067 runserver 16632 12336 [mHTTP GET /static/admin/css/dark_mode.css 200 [0.05, 127.0.0.1:49478][0m
+INFO 2026-03-05 21:11:26,070 runserver 16632 12336 [mHTTP GET /static/admin/css/base.css 200 [0.05, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:26,071 runserver 16632 12336 [mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.00, 127.0.0.1:49478][0m
+INFO 2026-03-05 21:11:26,074 runserver 16632 12336 [mHTTP GET /static/admin/css/login.css 200 [0.00, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:26,075 runserver 16632 12336 [mHTTP GET /static/admin/css/responsive.css 200 [0.00, 127.0.0.1:49478][0m
+INFO 2026-03-05 21:11:26,077 runserver 16632 12336 [mHTTP GET /static/admin/js/theme.js 200 [0.00, 127.0.0.1:56408][0m
+INFO 2026-03-05 21:11:26,078 runserver 16632 12336 [mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.00, 127.0.0.1:49478][0m
+WARNING 2026-03-05 21:11:26,108 log 16632 3556 Not Found: /favicon.ico
+WARNING 2026-03-05 21:11:26,109 runserver 16632 12336 [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:49478][0m
+WARNING 2026-03-05 21:11:48,212 log 16632 3556 Not Found: /
+WARNING 2026-03-05 21:11:48,213 runserver 16632 12336 [33mHTTP GET / 404 [0.01, 127.0.0.1:49478][0m
+WARNING 2026-03-05 21:12:13,187 log 16632 3556 Not Found: /
+WARNING 2026-03-05 21:12:13,187 runserver 16632 12336 [33mHTTP GET / 404 [0.01, 127.0.0.1:64991][0m
+WARNING 2026-03-05 21:12:13,269 log 16632 3556 Not Found: /favicon.ico
+WARNING 2026-03-05 21:12:13,270 runserver 16632 12336 [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:12:46,940 runserver 16632 12336 [32mHTTP GET /admin/ 302 [0.00, 127.0.0.1:49478][0m
+INFO 2026-03-05 21:12:46,949 runserver 16632 12336 [mHTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:49478][0m
+INFO 2026-03-05 21:12:48,784 runserver 16632 12336 [32mHTTP GET /admin/ 302 [0.00, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:12:48,810 runserver 16632 12336 [mHTTP GET /admin/login/?next=/admin/ 200 [0.01, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:12:48,840 runserver 16632 12336 [mHTTP GET /static/admin/css/base.css 200 [0.00, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:12:48,840 runserver 16632 12336 [mHTTP GET /static/admin/js/theme.js 200 [0.00, 127.0.0.1:64784][0m
+INFO 2026-03-05 21:12:48,841 runserver 16632 12336 [mHTTP GET /static/admin/css/dark_mode.css 200 [0.00, 127.0.0.1:50143][0m
+INFO 2026-03-05 21:12:48,845 runserver 16632 12336 [mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.00, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:12:48,846 runserver 16632 12336 [mHTTP GET /static/admin/css/login.css 200 [0.00, 127.0.0.1:64784][0m
+INFO 2026-03-05 21:12:48,847 runserver 16632 12336 [mHTTP GET /static/admin/css/responsive.css 200 [0.00, 127.0.0.1:50143][0m
+INFO 2026-03-05 21:12:48,850 runserver 16632 12336 [mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.00, 127.0.0.1:64991][0m
+INFO 2026-03-05 21:19:20,368 autoreload 2180 7112 Watching for file changes with StatReloader
+INFO 2026-03-05 21:19:20,801 server 2180 16296 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2026-03-05 21:19:20,801 server 2180 16296 Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2026-03-05 21:19:20,802 server 2180 16296 Listening on TCP address 127.0.0.1:8000
+INFO 2026-03-05 21:24:56,103 runserver 2180 16296 [mHTTP OPTIONS /api/register/ 200 [0.00, 127.0.0.1:54483][0m

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", system-ui, -apple-system, sans-serif;
+  --color-primary-50: #f1f8ed;
+  --color-primary-100: #ddeed4;
+  --color-primary-200: #bddfaa;
+  --color-primary-300: #94c975;
+  --color-primary-400: #71af4f;
+  --color-primary-500: #539235;
+  --color-primary-600: #3f7528;
+  --color-primary-700: #325d22;
+  --color-primary-800: #2b4a1f;
+  --color-primary-900: #253f1d;
+  --color-primary-950: #11220c;
+}
+
+body {
+  font-family: var(--font-inter);
+  @apply bg-slate-50 text-slate-900;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors duration-200 font-medium;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-slate-200 p-6;
+  }
+}
