@@ -25,7 +25,7 @@ const AgriDoctor = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await client.post('/api/create-problem/', newProblem);
+      await client.post('/api/problems/create/', newProblem);
       setNewProblem({ title: '', description: '', crop_type: '', problem_type: 'রোগ' });
       fetchProblems();
     } catch (err) {

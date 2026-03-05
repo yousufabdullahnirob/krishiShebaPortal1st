@@ -12,7 +12,7 @@ const Marketplace = () => {
 
   const fetchPosts = async () => {
     try {
-      const res = await client.get('/api/market/view-posts/');
+      const res = await client.get('/api/market/');
       setPosts(res.data);
     } catch (err) {
       console.error(err);
